@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{6f3d445e-de8c-4df9-98fe-73a213d849c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Scene">
+      <UniqueIdentifier>{320acea7-712f-4c4b-9b5a-158edabd6af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\System">
+      <UniqueIdentifier>{beafaa92-95d5-4aa4-b3d5-4b2353427e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\System">
+      <UniqueIdentifier>{d889b303-4223-48ae-9137-ef6578a7c030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Camera">
+      <UniqueIdentifier>{49074761-6a6d-49fc-acc8-24291272a462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Camera">
+      <UniqueIdentifier>{39545c92-049b-4ed9-9f6f-28e147051aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Player">
+      <UniqueIdentifier>{c808b8ce-315a-4ddd-bd8e-8b758fddf26e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Player">
+      <UniqueIdentifier>{8f397d14-6496-4d0a-b331-6816789b9130}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Model">
+      <UniqueIdentifier>{0ecaeeb5-c5f7-4fa5-b0c7-9c43f4803ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Model">
+      <UniqueIdentifier>{7c19f38f-33a1-4c7e-bd88-dfaffc65572b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Shot">
+      <UniqueIdentifier>{bc4b35a2-2e34-45a2-ba08-f148619ad6ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Collider">
+      <UniqueIdentifier>{05022881-7803-4d22-aa15-d5c8e3932cac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Collider">
+      <UniqueIdentifier>{ddeba380-d47c-4535-9685-451774599257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Map">
+      <UniqueIdentifier>{c0a2a393-94e3-45ca-93a2-26585f050e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Map">
+      <UniqueIdentifier>{014b3847-24eb-4555-a2bf-d0b2e8777945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Shot">
+      <UniqueIdentifier>{2e8a619c-9bb8-4e43-9a49-4d50fb1e277f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneController.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ResultScene.cpp">
+      <Filter>ソース ファイル\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="App.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>ソース ファイル\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>ソース ファイル\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollider.cpp">
+      <Filter>ソース ファイル\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>ソース ファイル\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Shot.cpp">
+      <Filter>ソース ファイル\Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ソース ファイル\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ShotDirector.cpp">
+      <Filter>ソース ファイル\Shot</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TitleScene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneController.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ResultScene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayScene.h">
+      <Filter>ヘッダー ファイル\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="App.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Definition.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>ヘッダー ファイル\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>ヘッダー ファイル\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Shot.h">
+      <Filter>ヘッダー ファイル\Shot</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollider.h">
+      <Filter>ヘッダー ファイル\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>ヘッダー ファイル\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ヘッダー ファイル\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ShotDirector.h">
+      <Filter>ヘッダー ファイル\Shot</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
